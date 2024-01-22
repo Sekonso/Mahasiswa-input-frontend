@@ -103,7 +103,7 @@
           <div class="d-flex align-items-center justify-content-between gap-3">
             <button
               class="btn btn-primary"
-              @click.prevent="state.newSemester++"
+              @click.prevent="state.newSemester--"
               :disabled="state.newSemester <= 1"
             >
               -
